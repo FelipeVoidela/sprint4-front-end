@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint-4-Front-End</title>
+
+    <!--Google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap" rel="stylesheet">
+    
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <!--css-->
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+
+    <!--header-->
+    <header class="menu-header">
+        <nav class="navbar navbar-expand-lg menu-header">
+            <div class="container-fluid">
+                <a class="navbar-brand logo-menu" href="#">
+                    <img src="./images/logo.png" alt="Logo" />
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav d-flex align-items-center ms-auto">
+                        <li class="nav-item">
+                            <a href="#About">Quem somos?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Problem">Problema</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Impacts">Impactos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="#Solution">Solução</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="#Arduino">Arduino</a>
+                        </li>
+                        <li class="nav-item">
+                            <a  href="#Application">Aplicativo</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <!--introduction-->
+        <section class="introduction">
+            <div class="introduction-container">
+                <div class="introduction-text d-flex flex-column align-items-start justify-content-center p-5">
+                    <h2 class="text-start">Introdução</h2>
+                    <p class="text-start ">Um dos componentes vitais para a vida humana é o gás oxigênio. Elemento presente em 21% da atmosfera e responsável por diversas reações químicas, dentre elas, a respiração aeróbica. No entanto, a constante liberação de gases poluentes dificulta sua utilização.</p>
+                </div>
+                
+                <div class="introduction-img">
+                    <img src="./images/bg-images/introduction-img.png" alt="imagem de chaminé">
+                </div>
+            </div>
+        </section>
+
+        <!--about-->
+        <section class="about">
+            <div class="cloud">
+                <div class="img-about d-flex justify-content-center">
+                    <img src="./images/bg-images/about-hand-up.png" alt="imagem de mão levantada">
+                </div>
+                <div class="text-about d-flex flex-column justify-content-center align-items-center">
+                    <h2 class="text-start">Quem somos nós?</h2>
+                    <p class="text-center">Nós somos a Fresh Air, uma empresa biotecnológica que esta sendo planejada com o intuito de visar a sustentabilidade através da aplicabilidade do arduino em um aplicativo, no qual informará a qualidade do ar baseado na quantidade de gases poluentes analisada pelos sensores, propagando conhecimento para a população acerca deste tema.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--problem-->
+        <section class="problem d-flex justify-content-center align-items-center">
+            <div class="problem-text d-flex flex-column align-items-center">
+                <h2 class="text-center">Problema</h2>
+                <p class="text-center">A poluição está entre os principais causadores de doenças respiratórias devido substâncias extremamente nocivas. Problema no qual é recorrente nas grandes cidades, devido a quantidade de indústrias e automóveis, uma vez que esses são os principais responsáveis pela emissão de gases poluentes.
+                Logo, gases como monóxido de carbono, gás carbônico e dióxido de enxofre resultam na poluição e representam um risco à  saúde humana  e as condições do planeta.</p>
+            </div>
+        </section>
+
+        <!--impacts-->
+        <section class="impacts">
+            <h2 class="impact-first-title d-flex justify-content-center">Impactos na Humanidade</h2>
+            <div class="impact-first d-flex align-items-center justify-content-center">
+                    <div class="icon-impact-first d-flex justify-content-center align-items-center">
+                        <img src="./images/icons/impacts-icon2.png" alt="ícone fumaça">
+                    </div>
+                    <p class="text-impact-first">O gás CO é liberado pela queima de combustíveis fósseis. Esse gás interage e se liga às hemácias do sangue com mais afinidade do que o oxigênio, impedindo a ligação desse importante componente com as hemácias, gerando prejuízo a saúde ou até mesmo a morte por intoxicação.
+                    Por ser um gás de efeito estufa, sua alta concentração contribuí para o aquecimento global. </p>
+            </div>
+            <h2 class="impact-second-title d-flex justify-content-center">Como a solução mitiga isso</h2>
+            <div class="impact-second d-flex align-items-center justify-content-center">
+                    <p class="text-impact-second">Com a implementação da nossa aplicação, a população terá acesso rápido e prático as informações sobre a qualidade do ar em uma determinada área. Assim, evitariam tais locais devido ao excesso de gases prejudiciais à saude.</p>
+                    <div class="icon-impact-second d-flex justify-content-center align-items-center">
+                        <img src="./images/icons/impacts-icon1.png" alt="ícone ideia">
+                    </div>
+            </div>
+        </section>
+
+        <!--solution-->
+        <section class="solution">
+            <h2>Solução</h2>
+            <div class="itens-solution-container">
+                <div class="item-solution-arduino d-flex justify-content-center align-items-center flex-column">
+                    <div class="icon">
+                        <img src="./images/icons/arduino-icon.png" alt="ícone arduino">
+                    </div>
+                    <p>O circuito com arduino para medir a qualidade do ar</p>
+                </div>
+                <div class="item-solution-text-send d-flex justify-content-center align-items-center flex-column">
+                    <p>Envio das leituras para o banco de dados</p>
+                    <div class="arrow d-flex"><i class="pointer arrow-right"></i></div>
+                </div>
+                <div class="item-solution-database d-flex justify-content-center align-items-center flex-column">
+                    <div class="icon">
+                        <img src="./images/icons/database-icon.png" alt="ícone banco de dados">
+                    </div>
+                </div>
+                <div class="item-solution-send-database d-flex justify-content-center align-items-center flex-column">
+                    <p>Envio e recebimento de informações para o banco de dados</p>
+                    <div class="d-flex arrow">
+                        <i class="pointer arrow-left"></i>
+                        <i class="pointer arrow-right"></i>
+                    </div>
+                </div>
+                <div class="item-solution-android d-flex justify-content-center align-items-center flex-column">
+                    <div class="icon">
+                        <img src="./images/icons/android.png" alt="ícone banco de dados">
+                    </div>
+                    <p>Um aplicativo para mostrar ao usuário os resultados e recomendações</p>
+                </div>
+            </div>
+        </section>
+
+        <!--arduino-->
+        <section class="arduino">
+            <div class="title-arduino d-flex justify-content-center align-items-center">
+                <h2 class="text-center ">ARDUINO</h2>
+            </div>
+            <div class="arduino-container">
+                <div class="arduino-uno d-flex justify-content-evenly align-items-center">
+                    <p>O Arduino UNO é a peça principal do projeto, responsavel por conectar todos os componentes.</p>
+                    <img src="./images/arduino/arduino.png" alt="arduino UNO">
+                </div>
+                <div class="sensor-mq d-flex justify-content-evenly align-items-center">
+                    <p>O sensor MQ-135 é responsável por medir a quantidade de gases poluentes presentes no ar.</p>
+                    <img src="./images/arduino/mq-135.png" alt="sensor mq-135">
+                </div>
+                <div class="sensor-neo d-flex justify-content-evenly align-items-center">
+                    <p>O sensor NEO 6M é responsável por informar a sua localização obtida a partir de diversos satélites.</p>
+                    <img src="./images/arduino/neom6.png" alt="sensor NEO M6">
+                </div>
+                <div class="sensor-esp d-flex justify-content-evenly align-items-center">
+                    <p>O sensor ESP-01 é responsável por conectar o Arduino internet e, assim, enviar os dados para um banco de dados. </p>
+                    <img src="./images/arduino/esp01.png" alt="sensor ESP-01">
+                </div>
+                <div class="sensor-dht d-flex justify-content-evenly align-items-center">
+                    <p>O sensor DHT-11 é responsável por medir a temperatura e umidade do ar.</p>
+                    <img src="./images/arduino/dht11.png.png" alt="sensor DHT11">
+                </div>
+            </div>
+        </section>
+        
+        <!--app-->
+        <section class="app">
+            <div class="app-text-container d-flex justify-content-center align-items-center">
+                <div class="app-text">
+                    <h2>Aplicativo</h2>
+                    <p>A aplicação conta com um aplicativo que mostra, em tempo real, a qualidade do ar de acordo com os testes realizados  pelo arduino  e o  número de reportes que aquela área recebeu. Ademais, conta com recomendações sobre permanência e conduta nas áreas analisadas.</p>
+                    <p>Toda camada de cadastro, login e visualização  será feita no aplicativo.</p>
+                </div>
+            </div>
+            <div class="app-img-container">
+                <div class="cell">
+                    <img src="./images/bg-images/mobile-.png" alt="celular">
+                </div>
+                <div class="mobile-arrow">
+                    <img src="./images/icons/setacell.png" alt="seta de rotação do celular">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!--footer-->
+    <footer class="footer">
+            <img src="./images/bg-images/wave.svg" alt="efeito de onda rodapé">
+            <p>Todos os direitos reservados a Fresh Air</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
