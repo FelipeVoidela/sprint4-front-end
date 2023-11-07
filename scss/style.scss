@@ -123,6 +123,7 @@ header.menu-header{
     //tablet
     @media (max-width: 1200px) {
         .introduction-container {
+            height: 100%;
             background-image: url(../images/bg-images/introduction-img.png);
             background-size: 60% 100%; 
             background-repeat: no-repeat;
@@ -944,7 +945,6 @@ header.menu-header{
         max-width: 100%; 
         height: auto; 
         position: absolute;
-        bottom: 0;
     }
     
     p {
@@ -953,17 +953,45 @@ header.menu-header{
         position: relative;
         margin-left: 20px;
     }
-    @media (max-width: 700px) {
+    //tablet
+    @media (max-width: 1200px) {
         height: 5vh;
+        background-color: var(--color-second);
         img {
-            width: 100vh; 
+            top: -150px;
+            width: 100vw; 
             height: auto; 
-            border: 1px solid black;
         }
         p{
             font-size: var(--font-text-sm);
         }
     }
+    //mobile
+    @media (max-width: 700px) {
+        height: 5vh;
+        background-color: var(--color-second);
+        img {
+            top: -90px;
+            width: 100vw; 
+            height: auto; 
+        }
+        p{
+            font-size: var(--font-text-sm);
+        }
+    }
+        //mobile
+        @media (max-width: 400px) {
+            height: 5vh;
+            background-color: var(--color-second);
+            img {
+                top: -70px;
+                width: 100vw; 
+                height: auto; 
+            }
+            p{
+                font-size: var(--font-text-sm);
+            }
+        }
 }
 
 

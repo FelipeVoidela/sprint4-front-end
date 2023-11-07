@@ -100,6 +100,7 @@ header.menu-header a:hover::before {
 }
 @media (max-width: 1200px) {
   .introduction .introduction-container {
+    height: 100%;
     background-image: url(../images/bg-images/introduction-img.png);
     background-size: 60% 100%;
     background-repeat: no-repeat;
@@ -767,7 +768,6 @@ header.menu-header a:hover::before {
   max-width: 100%;
   height: auto;
   position: absolute;
-  bottom: 0;
 }
 .footer p {
   color: var(--color-zero);
@@ -775,14 +775,43 @@ header.menu-header a:hover::before {
   position: relative;
   margin-left: 20px;
 }
+@media (max-width: 1200px) {
+  .footer {
+    height: 5vh;
+    background-color: var(--color-second);
+  }
+  .footer img {
+    top: -150px;
+    width: 100vw;
+    height: auto;
+  }
+  .footer p {
+    font-size: var(--font-text-sm);
+  }
+}
 @media (max-width: 700px) {
   .footer {
     height: 5vh;
+    background-color: var(--color-second);
   }
   .footer img {
-    width: 100vh;
+    top: -90px;
+    width: 100vw;
     height: auto;
-    border: 1px solid black;
+  }
+  .footer p {
+    font-size: var(--font-text-sm);
+  }
+}
+@media (max-width: 400px) {
+  .footer {
+    height: 5vh;
+    background-color: var(--color-second);
+  }
+  .footer img {
+    top: -70px;
+    width: 100vw;
+    height: auto;
   }
   .footer p {
     font-size: var(--font-text-sm);
